@@ -22,7 +22,7 @@ vim.opt.smartcase=true
 vim.opt.signcolumn="yes"
 
 
-    vim.opt.scrolloff=5     
+vim.opt.scrolloff=5     
 
 
 -- clipboard
