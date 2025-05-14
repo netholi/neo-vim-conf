@@ -21,4 +21,13 @@ vim.opt.smartcase=true
 
 vim.opt.signcolumn="yes"
 
+
     vim.opt.scrolloff=5     
+
+
+-- clipboard
+vim.opt.clipboard:append("unnamedplus") --use system clipboard as default
+vim.opt.hlsearch = true
+
+-- for easy mouse resizing, just incase
+vim.opt.mouse = "a"
